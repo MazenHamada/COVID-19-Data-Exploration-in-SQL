@@ -1,24 +1,41 @@
-Description:
-This project explores global COVID-19 data using SQL Server. The analysis includes infection rates, death percentages, vaccination progress, and global statistics. The project demonstrates SQL data analysis skills including joins, common table expressions (CTEs), temporary tables, window functions, aggregate functions, data type conversion, and creating views for visualization.
+# COVID-19 Data Exploration in SQL
 
-The queries analyze:
+## Project Overview
+This project explores global COVID-19 data using SQL Server. The analysis focuses on infection rates, death percentages, vaccination progress, and global statistics. The project demonstrates practical SQL data analysis and data manipulation techniques commonly used in data analytics and business intelligence workflows.
 
-Total cases vs total deaths
-Infection rate compared to population
-Countries with highest infection rates
-Countries and continents with highest death counts
-Global COVID statistics
-Rolling vaccination counts
-Percentage of population vaccinated
-Creating views for visualization tools (e.g., Power BI / Tableau)
+## Dataset Tables Used
+- `CovidDeaths`
+- `CovidVaccinations`
 
-Skills Demonstrated:
+## Analysis Performed
+The SQL queries in this project analyze:
 
-SQL Joins
-CTEs (Common Table Expressions)
-Temporary Tables
-Window Functions
-Aggregate Functions
-Data Type Conversion
-Views Creation
-Data Analysis in SQL
+- Total cases vs total deaths  
+- Total cases vs population  
+- Countries with highest infection rate compared to population  
+- Countries with highest death count  
+- Death count by continent  
+- Global COVID statistics  
+- Population vs vaccinations  
+- Rolling number of vaccinated people  
+- Percentage of population vaccinated  
+
+## SQL Skills Demonstrated
+This project demonstrates the use of:
+
+- Joins  
+- Common Table Expressions (CTEs)  
+- Temporary Tables  
+- Window Functions  
+- Aggregate Functions  
+- Data Type Conversion  
+- Creating Views  
+- Data Analysis using SQL
+
+## Questions Answered
+- What percentage of people infected with COVID died?
+- What percentage of each country’s population got COVID?
+- Which countries had the highest infection rate?
+- Which continents had the highest death count?
+- How many people were vaccinated over time?
+- What percentage of the population was vaccinated?
